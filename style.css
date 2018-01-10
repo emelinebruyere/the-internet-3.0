@@ -1,0 +1,534 @@
+body {
+ 	width: 100%;
+ 	background: #0d0649 no-repeat;
+ 	font-family: 'Share Tech Mono', monospace;
+ }
+
+/*--------------PAGE0-------------*/
+#accueil {
+			  background-image: url("images/vortex.gif");
+			  background-repeat: no-repeat;
+			  background-size: 80%;
+			  background-position: top;
+			  background-color: rgb(13,6,73);
+				}
+
+#ha {
+		width:1100px;
+		height:800px;
+		left:25%;
+		position:absolute;
+		top:18%;
+		;
+}
+
+#ha p {
+			opacity:0;
+			font-family: 'Share Tech Mono', monospace;
+		}
+
+#ha:hover p {
+				opacity:1;
+				color: #0d0649;
+			   } 
+
+nav {
+	 position:fixed;
+	 left:6%;
+	 bottom:5%;
+
+	}
+
+
+
+ul{
+	width:500px;
+	
+}
+nav ul li{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	/*border:2px solid red;*/
+	display:inline-block;
+	width:200px;
+	margin:0 1vw;
+	}
+
+nav ul li a{
+			color:#24f0ff;
+			text-decoration: none;
+}
+
+nav ul li a:hover {
+			color:#24f0ff;
+			text-decoration: none;
+			font-size: 25px;
+}
+
+nav ul li a:active {
+			text-decoration: none;
+			background-color: #ff22ff;
+}
+
+
+nav ul li a:visited{
+			color:#24f0ff;
+			text-decoration: overline;
+			
+}
+
+
+
+.logo{
+		position:absolute;
+		width: 120px;
+		margin-top:-2%;
+		left:6%;
+		position:fixed;
+		}
+
+.logo img{
+	width: 100%;
+
+}
+
+
+#fleche img {
+			 width:1.25%;
+			 position:absolute;
+			 right:5%;
+			 top:50%;
+
+			}
+
+
+#je2 {
+		left:0%; 
+		top:15%;
+		background-color: rgba(5,253,242,0.75);
+    	position:absolute;
+        padding:0.6vh;
+        width:200px;
+       
+		}	
+
+	
+
+#je3 {
+		left:5%;
+		top:35%;
+		background-color: rgba(5,253,242,0.75);
+        position:absolute;
+        padding:0.6vh;
+        width:100px;
+		}	
+
+#je4 {
+		margin-left:35%;
+		margin-top:28%;
+		background-color: rgba(5,253,242,0.75);
+     	position:absolute;
+     	padding:0.6vh;
+		}
+
+#je5 {
+		margin-left:42%;
+		margin-top:18%;
+		background-color: rgba(5,253,242,0.75);
+     	position:absolute;
+     	padding:0.6vh;
+     	width: 200px;
+		}
+
+#je6 {
+		margin-left:80%;
+		margin-top:17%;
+		background-color: rgba(5,253,242,0.75);
+     	display: inline-block;
+     	padding:0.6vh;
+		}
+
+	
+li{
+	border: 1px solid green;
+	width: 100vw;
+	display: inline-block;
+	color: white;
+}
+
+img{
+		width: 100vw;
+		float:left;
+		margin-left:15vw;
+		margin-top: -65vh;
+}
+
+p{ 
+	color:white; }
+
+
+/*--------------PAGE1-------------*/
+
+#charlie {
+			background-image: url("images/charlie.png");
+			  background-repeat: no-repeat;
+			  background-size: 74vw;
+			  background-position: top;
+			  background-color: rgb(13,6,73);
+				} 
+#mes p{
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height: 20px
+
+				} 
+
+#app1 {
+				width:50px;
+				height:100px;
+				left:25%;
+				position:absolute;
+				top:15%;
+}
+
+#app1 p {
+				opacity:0;
+				font-family: 'Share Tech Mono', monospace;
+				font-size: 18px;
+				line-height: 20px
+}
+
+#app1:hover p {
+						opacity:1;
+						color: #0d0649;
+} 
+
+
+
+#app2 {
+				width:50px;
+				height:100px;
+				left:18%;
+				position:absolute;
+				top:40%;
+		}
+
+#app2 p {
+				opacity:0;
+				font-family: 'Share Tech Mono', monospace;
+				font-size: 18px;
+				line-height: 20px
+		}
+
+#app2:hover p {
+						opacity:1;
+						color: #0d0649;
+				} 
+
+#app3 {
+				width:50px;
+				height:100px;
+				left:55%;
+				position:absolute;
+				top:27%;
+		}
+
+#app3 p {
+				opacity:0;
+				font-family: 'Share Tech Mono', monospace;
+				font-size: 18px;
+				line-height: 20px
+		}
+
+#app3:hover p {
+						opacity:1;
+						color: #0d0649;
+				} 
+
+#hip {
+		margin-left:15%;
+		margin-top:2%;
+		background-color: rgba(5,253,242,0.90);
+     	position:absolute;
+     	padding:0.4vh;
+     	width:300px;
+		}
+
+
+#hack {
+		margin-left:5%;
+		margin-top:24%;
+		background-color: rgba(5,253,242,0.90);
+     	position:absolute;
+     	padding:0.6vh;
+     	width:300px;
+		}
+
+#science {
+			margin-left:79%;
+			margin-top:8%;
+			background-color: rgba(5,253,242,0.90);
+     		position:absolute;
+     		padding:0.6vh;
+     		width:300px;
+		  }
+
+#mes {
+		margin-left:68%;
+		margin-top:35%;
+		background-color: rgba(6,4,43,1);
+     	position:absolute;
+     	padding:1.5vh;
+     	width:330px;
+     	color: #24f0ff;
+     	text-align: left;
+     	font-family: 'Share Tech Mono', monospace;
+		font-size: 20px;
+		line-height: 25px;
+		color: #24f0ff;
+
+	}
+
+#mes p {
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height: 25px;
+			color: #24f0ff;
+
+			}
+
+
+
+
+
+/*--------------PAGE2-------------*/
+
+#brand {
+			background-image: url("images/brand.gif");
+			  background-repeat: no-repeat;
+			  background-size: 68vw;
+			  /*background-position: left;*/
+			  bottom:65%;
+			  background-color: rgb(13,6,73);
+			  right:80%;
+			}
+
+#fleche2 img {
+			 width:1.25%;
+			 position:absolute;
+			 right:5%;
+			 top:50%;
+
+			}
+
+#cet p {
+			width: 250px;
+			height: 36.5vh;
+			background-color: rgba(5,253,242,1);
+			padding: 0.5%;
+			border:2px;
+			margin-left:63vw;
+			margin-top: 24vh;
+			position:fixed;
+			color: #0d0649;
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height: 20px
+			
+			}
+
+
+#homme {
+			width: 18.5vw;
+			height: 7vh;
+			padding: 1.5vh;
+			border:2px;
+			margin-left:67.5vw;
+			margin-top: 83vh;
+			position:fixed;
+			background-color: rgba(6,4,43,1);
+			
+			}
+
+
+#homme p {
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height: 25px;
+			color: #24f0ff;
+
+			}
+
+
+#brant img {
+			width: 15% ;
+			position:absolute;
+			left:15%;
+			top:14%;
+			
+			}
+
+
+#terre img {
+			width:13%;
+			position:absolute;
+			left:75%;
+			top:22%;
+			}
+
+#well img {
+			width:13%;
+			position:absolute;
+			left:77%;
+			top:54%;
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 15px;
+			line-height: 20px;
+			color: white;
+		}
+
+#terre figcaption {
+					width:7%;
+					position:absolute;
+					left:80.5%;
+					top:45%;
+					font-family: 'Share Tech Mono', monospace;
+					font-size: 15px;
+					line-height: 20px;
+					color: white;
+					}
+
+
+#well figcaption {
+			width:9%;
+			position:absolute;
+			left:79.5%;
+			top:67%;
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 15px;
+			line-height: 20px;
+			color: white;
+			}
+
+
+
+/*--------------PAGE3-------------*/
+
+#sarko {
+		background-image: url("images/masque.png");
+		background-repeat: no-repeat;
+		background-size: 67%;
+		background-position: top;
+		background-color: rgb(13,6,73);
+}
+#fleche3 img {
+			 width:1.25%;
+			 position:absolute;
+			 left:90%;
+			 top:50%;
+
+			}
+
+#video iframe {
+			width:30%;
+			position:absolute;
+			left:35%;
+			top:32%;
+			opacity:0;
+
+			}
+
+#video iframe:hover {
+					 opacity:1;
+					}
+
+
+#video figcaption {
+			width:40%;
+			position:absolute;
+			left:40%;
+			top:63%;
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height: 20px;
+			color: #ff22ff;
+
+			}
+
+#video figcaption {
+					opacity:0;
+				   }
+
+#video figcaption:hover {
+					opacity:1;
+						}
+
+
+#grande {
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 20px;
+			line-height:25px;
+			height:150px;
+			width:400px;
+			position:fixed;
+			padding:1.5vh;
+			left:65%;
+			top:75%;
+			background-color: rgba(6,4,43,1);
+     		color: #24f0ff;
+     		text-align: left;
+          
+	}
+
+
+
+
+
+
+
+/*--------------PAGE4-------------*/
+
+#discour {
+		  width:1600px;
+		  height:1500px;
+		  position:absolute;
+		  left:12%;
+		  top:8%;
+
+			}
+
+#discour p {
+			font-family: 'Share Tech Mono', monospace;
+			font-size: 35px;
+			line-height: 50px;
+			color: #24f0ff;
+
+			}
+
+
+
+#naissance {
+				font-family: 'Share Tech Mono', monospace;
+				height:100px;
+				width:400px;
+				position:fixed;
+				padding:1.5vh;
+				left:75%;
+				top:80%;
+				font-family: 'Share Tech Mono', monospace;
+				font-size: 20px;
+				line-height: 25px;
+				background-color: rgba(6,4,43,1);
+     			color: #24f0ff;
+     			text-align: left;
+			}
+
+
+#fleche4 img {
+			 width:1.25%;
+			 position:absolute;
+			 left:90%;
+			 top:50%;
+			 position:fixed;
+
+			}
